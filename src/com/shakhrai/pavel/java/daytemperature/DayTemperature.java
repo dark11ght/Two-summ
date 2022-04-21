@@ -27,6 +27,9 @@ public class DayTemperature {
                     System.out.println(arr[nowDay] + " - " + count);
                     break;
                 }
+                if (count == (arr.length - 1) - nowDay) {
+                    System.out.println(arr[nowDay] + " - " + 0);
+                }
             }
 
             if (nowDay == arr.length - 1) {
